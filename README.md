@@ -8,7 +8,7 @@
 
 [--disablesyslog] [-disable] 	  Disable syslog systemd service
 
--cpconf} [--copyconfig]	        Copy rsyslog default config
+[-cpconf] [--copyconfig]	        Copy rsyslog default config
 
 [-fw]  [--firewall]		          Add current port to firewall
 
