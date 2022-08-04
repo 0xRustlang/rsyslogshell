@@ -1,19 +1,27 @@
 # rsyslogshell
 **rsyslog service manage**
 
-Service:
+**Service:**
 
-[--enablesyslog] [-enable] 	Enable syslog systemd service
-[--disablesyslog] [-disable] 	Disable syslog systemd service
--cpconf} [--copyconfig]	Copy rsyslog default config
-[-fw]  [--firewall]		Add current port to firewall
 
-Remote Options:
+[--enablesyslog] [-enable] 	    Enable syslog systemd service
 
-[-remote] [--changeremote]	Change Remote IP
-[-port] [--syslogport]		Change SysLog Port
+[--disablesyslog] [-disable] 	  Disable syslog systemd service
 
-Optional Arguments:
+-cpconf} [--copyconfig]	        Copy rsyslog default config
 
-[-install] [--installsyslog] install rsyslog package
+[-fw]  [--firewall]		          Add current port to firewall
+
+**Remote Options:**
+
+
+[-remote] [--changeremote]	    Change Remote IP
+
+[-port] [--syslogport]		      Change SysLog Port
+
+**Optional Arguments:**
+
+
+[-install] [--installsyslog]    install rsyslog package
+
 [-showport] [--showsyslogport]	Show rsyslog Port
