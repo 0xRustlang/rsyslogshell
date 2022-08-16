@@ -4,25 +4,25 @@
 **Service:**
 
 ```
-[--enablesyslog] [-enable]      Enable syslog systemd service
+--enablesyslog] -enable      Enable syslog systemd service
 
-[--disablesyslog] [-disable]    Disable syslog systemd service
+--disablesyslog] -disable    Disable syslog systemd service
 
-[-cpconf] [--copyconfig]	      Copy rsyslog default config
+-cpconf --copyconfig         Copy rsyslog default config
 
-[-fw]  [--firewall]		          Add current port to firewall
+-fw  --firewall              Add current port to firewall
 ```
 **Remote Options:**
 
 ```
-[-remote] [--changeremote]	    Change Remote IP
+--changeremote -remote      Change Remote IP
 
-[-port] [--syslogport]		      Change SysLog Port
+-port --syslogport          Change SysLog Port
 ```
 **Optional Arguments:**
 
 ```
-[-install] [--installsyslog]    install rsyslog package
+-install --installsyslog    install rsyslog package
 
-[-showport] [--showsyslogport]	Show rsyslog Port
+-showport --showsyslogport  Show rsyslog Port
 ```
